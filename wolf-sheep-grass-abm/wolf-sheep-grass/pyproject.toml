@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wolf_sheep_grass"
+version = "0.1.0"
+authors = [
+  { name="Adam C. Knapp", email="adam.knapp@medicine.ufl.edu" },
+]
+description = "Implementation of the Wolf-Sheep-Grass ABM"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "attrs",
+  "numpy",
+]
+
+[project.urls]
+Homepage = "https://github.com/knappa/wolf-sheep-grass"
+Issues = "https://github.com/knappa/wolf-sheep-grass/issues"
+
+[tool.black]
+line-length = 100

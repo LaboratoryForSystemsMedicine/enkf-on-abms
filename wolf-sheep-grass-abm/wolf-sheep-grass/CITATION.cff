@@ -1,0 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: wolf-sheep-grass
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: "A. C."
+    family-names: Knapp
+    email: adam.knapp@medicine.ufl.edu
+    affiliation: University of Florida
+    orcid: 'https://orcid.org/0000-0002-5719-6003'
+identifiers:
+  - type: url
+    value: 'https://github.com/knappa/wolf-sheep-grass'
+    description: github repository for the WSG model
+repository-code: 'https://github.com/knappa/wolf-sheep-grass'
+abstract: >-
+  Python reïmplementation of Netlogo's Wolf-sheep-grass
+  model of predator-prey dynamics.
+license: MIT
